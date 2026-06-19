@@ -1,0 +1,19 @@
+# Rust build artifacts
+/target
+
+# Editor / OS
+*.rs.bk
+.DS_Store
+Thumbs.db
+
+# アプリのローカルデータ（実行時に生成。公開しない）
+notes.json
+notes.backup.json
+notes.corrupt.json
+settings.json
+*.tmp
+
+# 非公開ドキュメント（誤コミット防止）
+/private/
+*_非公開.md
+*_private.md
